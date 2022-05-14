@@ -12,8 +12,8 @@ public class QueSound : MonoBehaviour
     public string infoText;
     private GameObject canvas;
   
-    public GameObject flower;
-    public Light light;
+    
+  
 
     // Start is called before the first frame update
     void Start()
@@ -24,13 +24,6 @@ public class QueSound : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.C))
-		       flower = GameObject.Find("flower");
-             Destroy(flower);
-
-    }
 
 
 private void OnTriggerEnter(Collider other){
@@ -39,9 +32,7 @@ private void OnTriggerEnter(Collider other){
         canvas.GetComponent<Canvas>().enabled = true;
         AudioInstance.PlayOneShot(AudioClipName);
      
-        light.shadowStrength = 1.0f;
-
-
+    
 
         // sphere = GameObject.Find("Sphere");
         // Destroy(sphere);//  Destroy(gameObject);
