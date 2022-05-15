@@ -64,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex2:
-        m_Texture: {fileID: 8900000, guid: 12c15a8e5a294be45819b1dd4b9b08d3, type: 3}
+        m_Texture: {fileID: 8900000, guid: 8967f190ed29c46418093a47d66daee8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -93,5 +93,5 @@ Material:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-    - _Tint2: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _Tint2: {r: 0.5441177, g: 0.532529, b: 0.5201125, a: 0.5}
   m_BuildTextureStacks: []

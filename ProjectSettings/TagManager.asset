@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TextBox
+  - Canvas
+  - Footsteps/grass
+  - Footsteps/wood
+  - CinemachineTarget
+  - Footsteps/metal
+  - CanvasFlowers
   layers:
   - Default
   - TransparentFX
