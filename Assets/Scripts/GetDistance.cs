@@ -7,25 +7,13 @@ public class GetDistance : MonoBehaviour
 
     public GameObject Player; 
     public float fogValue;
-    public float rainIntensity;
-    public GameObject rainPrefab;
-    // private RainScript rainScript;
 
-    // public GameObject test;
-    // private Test t;
     
     
     // Start is called before the first frame update
     void Start()
     {
-        // rainPrefab = GameObject.Find("RainPrefab");
-        // rainScript = rainPrefab.GetComponent<RainScript>();
-        // Debug.Log(RainScript.RainHeight);
-
-        // test = GameObject.Find("TEST");
-        // Destroy(test);
-        //t = test.GetComponent<Test>();
-        //Debug.Log(t.myVariable);
+       
 
     }
 
@@ -36,7 +24,7 @@ public class GetDistance : MonoBehaviour
         // Debug.Log (dist);
         
         fogValue = 1 / dist * 06.0f;
-        rainIntensity = 1 / dist * 06.0f;
+     
         float fogCalculation = (Mathf.Pow ( fogValue, 3.0f)) / 10;
         RenderSettings.fogDensity = fogCalculation;
     }
